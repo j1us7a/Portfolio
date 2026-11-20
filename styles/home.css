@@ -26,9 +26,24 @@
         width: 65%;
     }
 
-    .title {
-        font-size: 4vw;
-        position: absolute;
+    .text {
+        grid-column: 5/6;
+        grid-row: 2/3;
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.5vw;
+
+        
+        h2 {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin: 0;
+        }
     }
 }
 
@@ -185,7 +200,7 @@
         grid-row: 2;
 
         .text {
-            font-size: 1.8vw;
+            font-size: 1.5vw;
         }
     }
 
